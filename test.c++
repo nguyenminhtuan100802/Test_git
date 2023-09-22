@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     printf("Hello");
-    printf("\nMy name is Tuan");
     return 0;
 }
 
