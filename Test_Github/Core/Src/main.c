@@ -98,7 +98,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
 	  HAL_Delay(100);
-	  HAL_Delay(1000);
+	  HAL_Delay(100);
 
 	  HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
 	  HAL_Delay(100);
@@ -112,7 +112,6 @@ int main(void)
 	  HAL_Delay(100);
 	  HAL_Delay(1000);
 
-	  for (int var = 0; var < 10; var++)
 	  while(1)
 	  {
 		  HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
