@@ -113,6 +113,7 @@ int main(void)
 	  HAL_Delay(1000);
 
 	  for (int var = 0; var < 10; var++)
+	  while(1)
 	  {
 		  HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
 
